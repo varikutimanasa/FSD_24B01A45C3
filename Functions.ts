@@ -41,17 +41,3 @@ function sum(...numbers: number[]): number {
 
 console.log(sum(10, 20));
 console.log(sum(10, 20, 30, 40));
-// Function with rest parameters
-
-function sums(...numbers: number[]): number {
-    let total: number = 0;
-
-    for (let num of numbers) {
-        total += num;
-    }
-
-    return total;
-}
-
-console.log(sums(10, 20));
-console.log(sums(10, 20, 30, 40));
