@@ -136,25 +136,6 @@ console.log("Addition =", MathOperations.add(10, 5));
 console.log("Subtraction =", MathOperations.subtract(10, 5));
 console.log("Multiplication =", MathOperations.multiply(10, 5));
 console.log("Division =", MathOperations.divide(10, 5));
-// math.ts
-export function add(a, b) {
-    return a + b;
-}
-export function subtract(a, b) {
-    return a - b;
-}
-export function multiply(a, b) {
-    return a * b;
-}
-export function divide(a, b) {
-    return a / b;
-}
-// app.ts
-import { add, subtract, multiply, divide } from "./math";
-console.log("Addition =", add(20, 10));
-console.log("Subtraction =", subtract(20, 10));
-console.log("Multiplication =", multiply(20, 10));
-console.log("Division =", divide(20, 10));
 // Generic Class
 class Box {
     value;
